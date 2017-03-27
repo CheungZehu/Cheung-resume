@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+[resume](https://cheungzehu.github.io/Cheung-resume/)
+
 ## Build Setup
 
 ``` bash
