@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <!-- <h1>{{ msg }}</h1> -->
+    <h2>{{$store.state.status}}</h2>
     <ul>
-      <li v-for="item in resData">
+      <li v-for="item in $store.state.result">
         <p>{{item.name}}</p>
         <p>{{item.age}}</p>
         <p>{{item.email}}</p>
@@ -13,6 +13,9 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex';
+import { mapActions } from 'vuex'
+
 export default {
   name: 'hello',
   data () {
@@ -22,23 +25,21 @@ export default {
     }
   },
   mounted: function () {
-    this.$nextTick(function () {
-      this.resume();
-    })
+    this.getData();
+    // this.$store.commit('getData')
+    // this.$store.dispatch('getData')
+
   },
   methods: {
-    resume: function () {
-      this.$http.get('./../static/resume.json')
-        .then(response => {
-          alert(response.body.result);
-          this.resData = response.body.result;
-        })
-        .catch(function (response) {
-          console.log(response)
-        })
-    }
+    // ...mapMutations([
+    //   'getData'
+    // ])
+    ...mapActions([
+      'getData'
+    ])
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
