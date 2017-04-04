@@ -19,7 +19,10 @@ const state = {
 		"name": "掌握技能",
 		"skill": [
 			{
-				"sk": "熟练使用各种Web前端技术，包括HTML5/CSS/JavaScript/jQuery/Bootstrap，并且有Node.js和PHP等后台基础；"
+				"sk": "熟练掌握HTML5/CSS/JavaScript等前端基础，熟练使用jQuery/Bootstrap等流行的类库，熟悉es6语法，并且有Node.js和PHP等后台基础；"
+			},
+			{
+				"sk": "熟练使用前端MVC框架技术，如Vue.js；"
 			},
 			{
 				"sk": "理解并掌握核心技术DOM、BOM、Ajax、JSON等，熟悉页面架构和布局（栅格和响应式）；"
@@ -27,9 +30,7 @@ const state = {
 			{
 				"sk": "对Web语义化有深刻理解，理解各主流浏览器间的兼容性问题，有强烈的前端性能优化意识；"
 			},
-			{
-				"sk": "熟练使用前端MVC框架技术，如Vue.js；"
-			},
+			
 			{
 				"sk": "熟练应用Photoshop/Adobe Illustrator等相关设计工具软件。"
 			}
@@ -52,13 +53,16 @@ const state = {
 		"name": "项目经验",
 		"project": [
 			{
-				"list": "毕业设计—响应式电子商务网站"
+				"list": "毕业设计—响应式电子商务网站 （jQuery + PHP）"
 			},
 			{
-				"list": "网页版2048小游戏"
+				"list": "Vdo，仿豆瓣电影APP （vue + Muse-ui）"
 			},
 			{
-				"list": "网页版俄罗斯方块"
+				"list": "Vue版个人简历 （vue）"
+			},
+			{
+				"list": "俄罗斯方块、2048小游戏 （javascript）"
 			}
 		]
 	},
