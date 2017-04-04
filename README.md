@@ -1,23 +1,27 @@
-# resume
+# 个人简历
 
 > A Vue.js project
 
-[resume](https://cheungzehu.github.io/Cheung-resume/)
+[预览](https://cheungzehu.github.io/Cheung-resume/)
 
-## Build Setup
+## 快速使用
 
 ``` bash
-# install dependencies
+# 克隆项目到本地
+https://github.com/CheungZehu/Cheung-resume
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 在 localhost:8080 启动项目
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 截图
+
+![Image](static/resume.jpg)
+
+![Image](static/resume2.jpg)
+
+![Image](static/resume3.jpg)
