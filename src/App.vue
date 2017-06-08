@@ -72,8 +72,9 @@ export default {
     #app .info {
       width: 35%;
     }
-    #app .subject {
+    #app .subject {      
       width: 65%;
+      padding-left: 1em;
     }
     #app .avatar {
       width: 5em;
@@ -102,5 +103,6 @@ export default {
     #app {
       width: 1200px;
     }
+
   }
 </style>

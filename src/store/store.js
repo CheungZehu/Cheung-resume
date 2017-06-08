@@ -19,10 +19,10 @@ const state = {
 		"name": "掌握技能",
 		"skill": [
 			{
-				"sk": "熟练掌握HTML5/CSS/JavaScript等前端基础，熟练使用jQuery/Bootstrap等流行的类库，熟悉es6语法，并且有Node.js和PHP等后台基础；"
+				"sk": "精通HTML5/CSS/JavaScript等前端技术，能快速精确还原设计稿，并且有Node.js和PHP等后台基础；；"
 			},
 			{
-				"sk": "熟练使用前端MVC框架技术，如Vue.js；"
+				"sk": "熟练使用jQuery/Bootstrap等流行的类库，熟练使用前端MVC框架技术，如Vue.js；"
 			},
 			{
 				"sk": "理解并掌握核心技术DOM、BOM、Ajax、JSON等，熟悉页面架构和布局（栅格和响应式）；"
@@ -36,33 +36,59 @@ const state = {
 			}
 		]
 	},
+	"practice": {
+		"name": "实习经历",
+		"company": [
+			{
+				"name": "上海游唉唉网络科技有限公司广州分公司",
+				"time": "2017.04.18 — 2017.05.31",
+				"text": "岗位是web前端开发实习，主要参与公司前端项目开发，快速还原设计稿，编写网页视图层；协助后端工程师进行网页的视图层与后台数据对接，同时对页面样式上出现的bug进行解决。"
+			}
+		]
+	},
 	"education": {
 		"name": "教育经历",
 		"school": [
 			{
 				"year": "2014/9 — 2017/7 ",
 				"school": "广东轻工职业技术学院信息技术学院 计算机多媒体专业"
-			},
-			{
-				"year": "2011/9 — 2014/7 ",
-				"school": "深圳市第二职业技术学校信息技术部 动漫与游戏制作专业"
 			}
+			// {
+			// 	"year": "2011/9 — 2014/7 ",
+			// 	"school": "深圳市第二职业技术学校信息技术部 动漫与游戏制作专业"
+			// }
 		]
 	},
 	"project": {
 		"name": "项目经验",
 		"project": [
 			{
-				"list": "毕业设计—响应式电子商务网站 （jQuery + PHP）"
+				"list": "iiugameH5游戏平台（HTML5+CSS3+jQuery+ThinkPHP）",
+				"url": "http://h5.iiugame.com"
 			},
 			{
-				"list": "Vdo，仿豆瓣电影APP （vue + Muse-ui）"
+				"list": "iiugame游戏官网（HTML5+CSS3+jQuery+ThinkPHP）",
+				"url": "http://iiugame.com"
 			},
 			{
-				"list": "Vue版个人简历 （vue）"
+				"list": "毕业设计—响应式电子商务网站（jQuery + PHP）",
+				"url": "javascript:;"
 			},
 			{
-				"list": "俄罗斯方块、2048小游戏 （javascript）"
+				"list": "Vdo，仿豆瓣电影APP（vue + Muse-ui）",
+				"url": "https://github.com/CheungZehu/Vdo"
+			},
+			{
+				"list": "Vue版个人简历（vue）",
+				"url": "https://cheungzehu.github.io/Cheung-resume/"
+			},
+			{
+				"list": "网页版俄罗斯方块小游戏（javascript）",
+				"url": "https://cheungzehu.github.io/tetris/"
+			},
+			{
+				"list": "网页版2048小游戏（javascript）",
+				"url": "https://cheungzehu.github.io/2048/"
 			}
 		]
 	},
@@ -70,13 +96,10 @@ const state = {
 		"name": "自我评价",
 		"project": [
 			{
-				"list": "本人是计算机多媒体专业前端方向毕业生，有丰富的前端开发基础；"
-			},
-			{
 				"list": "具备良好的学习能力，能快速学习各种前端技术。同时具备良好的分析及解决问题的能力；"
 			},
 			{
-				"list": "在校期间，成绩优秀，曾获得校内三等奖学金；"
+				"list": "在校期间，成绩优秀，曾获得校内三等奖学金，加入过校学生会，担任校学生会宣传部副部长，具有一定的管理能力；"
 			},
 			{
 				"list": "加入过校学生会，担任校学生会宣传部副部长，具有一定的管理能力；"

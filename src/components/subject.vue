@@ -7,9 +7,17 @@
 					</mu-card-text>
 		</mu-card>
 		<mu-card class="card">
+			<mu-card-title :title="$store.state.practice.name" />
+			<mu-card-text v-for="item in $store.state.practice.company">
+				<!-- <span class="company-name"></span> -->
+			 	<p><span class="company-name">{{item.name}}</span><span class="time">{{item.time}}</span></p>
+				<p>{{item.text}}</p>
+			</mu-card-text>
+		</mu-card>
+		<mu-card class="card">
 				<mu-card-title :title="$store.state.project.name"/>
 				<mu-card-text v-for="item in $store.state.project.project">
-					{{item.list}}
+					<a :href="item.url">{{item.list}}</a>	
 				</mu-card-text>
 		</mu-card>
 		<mu-card class="card">
@@ -37,7 +45,19 @@
 		padding: 1em;
 		margin-bottom: 1.5em;
 	}
-	.yesr{
+	.yesr, .company-name{
 		margin-right: 5em;
+	}
+	.mu-card-title-container {
+		padding: 10px 16px;
+	}
+	.mu-card-text {
+		padding: 10px 16px;
+	}
+	.card:nth-child(3) .mu-card-text:hover {
+		background-color: rgba(71,74,73,0.1);
+	}
+	a {
+		color: #474a4f;
 	}
 </style>

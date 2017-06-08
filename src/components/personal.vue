@@ -1,7 +1,6 @@
 <template>
 	<mu-card class="info">
 		<mu-list>
-			<!-- <mu-avatar src="./../../static/C.jpg" :size="100" /> -->
 			<img class="avatar" src="./../../static/C.jpg">
 			<p>{{$store.state.person.name}}</p>
 		</mu-list>
@@ -33,6 +32,8 @@
 		</mu-paper>
 	</mu-card>
 </template>
+
+
 
 <style type="text/css" scoped>
 	.info{
